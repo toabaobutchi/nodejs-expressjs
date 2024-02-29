@@ -9,7 +9,6 @@ Tài liệu tự học Node.js - Express.js
 
     * [**Node.js**](https://nodejs.org/en/docs)
  
-    * [**Express.js**](https://expressjs.com/)
+    * [**Express.js**](https://expressjs.com/) - Tài liệu chính
  
     * [**NPM**](https://www.npmjs.com/)
-

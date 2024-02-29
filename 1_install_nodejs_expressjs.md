@@ -14,14 +14,14 @@
 
 Trước khi cài đặt Express.js, ta cần phải khởi tạo ứng dụng.
 
-* Mở môi trường dòng lệnh (Terminal, Command Promt, ...). Nếu sử dụng [**Visual Studio Code**](https://code.visualstudio.com/download) thì có thể sử dụng **Terminal** có sẵn.
+* Mở môi trường dòng lệnh (Terminal, Command Promt, ...). Nếu sử dụng [**Visual Studio Code**](https://code.visualstudio.com/download) thì có thể sử dụng **Intergrated Terminal** có sẵn.
 
 * Truy cập vào thư mục sẽ làm Workspace (chứa ứng dụng).
 
 * Sử dụng lệnh `npm init` để khởi động ứng dụng. Các yêu cầu thông tin về ứng dụng sẽ lần lượt hiện ra. Nhập các thông tin hoặc ấn **Enter** để sử dụng giá trị mặc định được khuyến nghị.
 
 > [!Note]
-> Có thể sử dụng lệnh `npm init -y` để bỏ qua các câu hỏi về ứng dụng - sử dụng các giá trị mặc địnhh.
+> Có thể sử dụng lệnh `npm init -y` để bỏ qua các câu hỏi về ứng dụng và sử dụng các giá trị mặc địnhh.
 
 
 * Sau đó, file `package.json` được tạo ra với nội dung như sau (có thể khác biệt theo từng thông tin cung cấp):

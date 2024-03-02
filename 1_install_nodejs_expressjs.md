@@ -8,7 +8,7 @@
 
 * Tải về và cài đặt
 
-* Kiểm tra **Node.js** và **npm** bằng lệnh `node -v` và `npm -v`. Nếu hiển thị kết quả phiên bản hiện tại tức là đã cài đặt thành công.
+* Kiểm tra **Node.js** và **npm** bằng lệnh `node -v` (hoặc `node --version`) và `npm -v` (hoặc `npm --version`). Nếu hiển thị kết quả phiên bản hiện tại tức là đã cài đặt thành công.
 
 ## Khởi tạo ứng dụng
 
@@ -24,7 +24,7 @@ Trước khi cài đặt Express.js, ta cần phải khởi tạo ứng dụng.
 > Có thể sử dụng lệnh `npm init -y` để bỏ qua các câu hỏi về ứng dụng và sử dụng các giá trị mặc địnhh.
 
 
-* Sau đó, file `package.json` được tạo ra với nội dung như sau (có thể khác biệt theo từng thông tin cung cấp):
+* Sau đó, file `package.json` được tạo ra với nội dung như sau (có thể khác tuỳ vào thông tin cung cấp):
 
 ```json
     {
@@ -44,3 +44,16 @@ Trước khi cài đặt Express.js, ta cần phải khởi tạo ứng dụng.
     }
 ```
 
+## Cài đặt Express.js
+
+Cài đặt Express.js thông qua npm bằng lệnh sau:
+
+```sh
+npm install express
+# hoặc
+npm i express
+```
+
+Nếu sử dụng npm phiên bản 4 hoặc thấp hơn, hãy thêm cờ `--save` trong câu lệnh cài đặt.
+
+Sau khi cài đặt Express.js, thư mục `node_modules` và `package-lock.json` được tạo ra nhằm khai báo và chứa các thư viện cần thiết.
